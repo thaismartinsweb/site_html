@@ -1,0 +1,335 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+ font-family: 'Open Sans', sans-serif;
+ font-weight:300;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+body {
+ line-height: 1;
+}
+
+ol, ul {
+ list-style: none;
+}
+
+blockquote, q {
+ quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+a, a:link, a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.btn-alizarin {
+  color: #fff;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+.btn-alizarin:hover,
+.btn-alizarin:focus,
+.btn-alizarin:active,
+.btn-emerald.active,
+.open > .dropdown-toggle.btn-emerald {
+  color: #fff;
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+.btn-alizarin:active,
+.btn-emerald.active,
+.open > .dropdown-toggle.btn-emerald {  
+  background-image: none;
+}
+.btn-alizarin.disabled,
+.btn-nalizarin[disabled],
+fieldset[disabled] .btn-alizarin,
+.btn-alizarin.disabled:hover,
+.btn-alizarin[disabled]:hover,
+fieldset[disabled] .btn-alizarin:hover,
+.btn-alizarin.disabled:focus,
+.btn-alizarin[disabled]:focus,
+fieldset[disabled] .btn-alizarin:focus,
+.btn-alizarin.disabled:active,
+.btn-alizarin[disabled]:active,
+fieldset[disabled] .btn-alizarin:active,
+.btn-alizarin.disabled.active,
+.btn-alizarin[disabled].active,
+fieldset[disabled] .btn-alizarin.active {
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+
+.btn-emerald {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+.btn-emerald:hover,
+.btn-emerald:focus,
+.btn-emerald:active,
+.btn-emerald.active,
+.open > .dropdown-toggle.btn-emerald {
+  color: #fff;
+  background-color: #16a085;
+  border-color: #16a085;
+}
+.btn-emerald:active,
+.btn-emerald.active,
+.open > .dropdown-toggle.btn-emerald {
+  background-image: none;
+}
+.btn-emerald.disabled,
+.btn-emerald[disabled],
+fieldset[disabled] .btn-emerald,
+.btn-emerald.disabled:hover,
+.btn-emerald[disabled]:hover,
+fieldset[disabled] .btn-emerald:hover,
+.btn-emerald.disabled:focus,
+.btn-emerald[disabled]:focus,
+fieldset[disabled] .btn-emerald:focus,
+.btn-emerald.disabled:active,
+.btn-emerald[disabled]:active,
+fieldset[disabled] .btn-emerald:active,
+.btn-emerald.disabled.active,
+.btn-emerald[disabled].active,
+fieldset[disabled] .btn-emerald.active {
+  background-color: #16a085;
+  border-color: #16a085;
+}
+
+
+.btn-asphalt {
+  color: #fff;
+  background-color: #34495e;
+  border-color: #34495e;
+}
+.btn-asphalt:hover,
+.btn-asphalt:focus,
+.btn-asphalt:active,
+.btn-asphalt.active,
+.open > .dropdown-toggle.btn-asphalt {
+  color: #fff;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+.btn-asphalt:active,
+.btn-asphalt.active,
+.open > .dropdown-toggle.btn-asphalt {
+  background-image: none;
+}
+.btn-asphalt.disabled,
+.btn-asphalt[disabled],
+fieldset[disabled] .btn-asphalt,
+.btn-asphalt.disabled:hover,
+.btn-asphalt[disabled]:hover,
+fieldset[disabled] .btn-asphalt:hover,
+.btn-asphalt.disabled:focus,
+.btn-asphalt[disabled]:focus,
+fieldset[disabled] .btn-asphalt:focus,
+.btn-asphalt.disabled:active,
+.btn-asphalt[disabled]:active,
+fieldset[disabled] .btn-asphalt:active,
+.btn-asphalt.disabled.active,
+.btn-asphalt[disabled].active,
+fieldset[disabled] .btn-asphalt.active {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.btn-amethyst {
+  color: #fff;
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+}
+.btn-amethyst:hover,
+.btn-amethyst:focus,
+.btn-amethyst:active,
+.btn-amethyst.active,
+.open > .dropdown-toggle.btn-amethyst {
+  color: #fff;
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+}
+.btn-amethyst:active,
+.btn-amethyst.active,
+.open > .dropdown-toggle.btn-amethyst {
+  background-image: none;
+}
+.btn-amethyst.disabled,
+.btn-amethyst[disabled],
+fieldset[disabled] .btn-amethyst,
+.btn-amethyst.disabled:hover,
+.btn-amethyst[disabled]:hover,
+fieldset[disabled] .btn-amethyst:hover,
+.btn-amethyst.disabled:focus,
+.btn-amethyst[disabled]:focus,
+fieldset[disabled] .btn-amethyst:focus,
+.btn-amethyst.disabled:active,
+.btn-amethyst[disabled]:active,
+fieldset[disabled] .btn-amethyst:active,
+.btn-amethyst.disabled.active,
+.btn-amethyst[disabled].active,
+fieldset[disabled] .btn-amethyst.active {
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+}
+
+
+
+
+
+
+header, .navbar, .navbar-header {
+	height: 80px;
+}
+
+ul.navbar-nav > li {
+	text-transform:uppercase;
+}
+
+ul.navbar-nav > li:hover {
+	background-color: #34495e;
+}
+
+ul.navbar-nav > li > a:hover {
+	color: #ecf0f1!important;
+}
+
+
+#services {
+	margin:20px 0;
+	display: block;
+	line-height:16px;
+}
+
+#services .service {
+	margin-top:20px;
+	padding: 0 30px;
+	min-height:200px;
+}
+
+#services .service a {
+	color: #333;
+}
+
+#services .service a:hover {
+	color: #999;
+}
+
+#services .service a p {
+	display:block;
+	margin-top:5px;
+	font-size:12px;
+}
+
+#services .service a p strong {
+	font-weight:600;
+	font-size:14px;
+	margin-top:15px;
+	display:block;
+}
+
+.btn-circle {
+	height:100px;
+	width:100px;
+	padding:30px 0;
+	border-radius: 50%;
+}
+
+.btn-circle > span {
+	display:block;
+	text-transform:uppercase;
+	font-weight:400;
+}
+
+.fa {
+	font-size:36px
+}
+
+#about {
+	margin-top:30px;
+}
+
+.text-effect {
+	padding-left:50px;
+}
+
+.text-effect .symbol {
+	float:right;
+	font-size:500px;
+	font-weight:300;
+	width:25%;
+	line-height:300px;
+	position:relative;
+	left:-40px;
+}
+
+.text-effect .content {
+	float:left;
+	font-size:80px;
+	font-weight:800;
+	width:75%;
+}
+
+@media (min-width: 768px) {
+footer {
+	width:100%;
+	bottom:0;
+	margin-top:20px;
+	padding:15px 0;
+	font-size: 12px;
+	background-color:#ecf0f1;
+}
+
+}
+
+
+@media (max-width: 767px) {
+footer {
+	width:100%;
+	margin-top:20px;
+	padding:15px 0;
+	font-size: 12px;
+	background-color:#ecf0f1;
+}
+
+}
