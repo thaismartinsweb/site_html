@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Beozinho</title>
 	
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
 	
 	<link href="css/bootstrap.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
@@ -31,8 +31,9 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">
-					<img src="images/logo.png" alt="Logo" title="Logo" height="60" />
+				<a class="navbar-brand" href="index.php">
+					<span class="brand-title">Thais Martins</span>
+					<span class="brand-subtitle">Desenvolvedora Web Freelancer</span>
 				</a>
 			</div>
 			

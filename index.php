@@ -41,38 +41,38 @@
 			<div class="col-sm-2 hidden-xs hidden-sm"></div>
 			<div class="col-sm-3 col-md-2 col-xs-6 text-center service">
 				<a href="#">
-					<div class="btn btn-emerald btn-circle">
-						<i class="fa fa fa-asterisk"></i>
+					<div class="btn btn-alizarin btn-circle">
+						<i class="fa fa fa-edit"></i>
 					</div>
-					<p><strong>Sites com CMS</strong></p>
-					<p>Tenha autonomia com um site com gerenciador de conteúdo</p>
+					<p class="title">Sites com CMS</p>
+					<p class="subtitle">Tenha autonomia com um site com gerenciador de conteúdo</p>
 				</a>
 			</div>
 			<div class="col-sm-3 col-md-2 col-xs-6 text-center service">
 				<a href="#">
-					<div class="btn btn-emerald btn-circle">
-						<i class="fa fa fa-asterisk"></i>
+					<div class="btn btn-alizarin btn-circle">
+						<i class="fa fa fa-phone"></i>
 					</div>
-					<p><strong>Sites Responsivos</strong></p>
-					<p>Sites com gerenciador de conteúdo</p>
+					<p class="title">Sites Responsivos</p>
+					<p class="subtitle">Sites com gerenciador de conteúdo</p>
 				</a>
 			</div>
 			<div class="col-sm-3 col-md-2 col-xs-6 text-center service">
 				<a href="#">
-					<div class="btn btn-emerald btn-circle">
-						<i class="fa fa fa-barcode"></i>
+					<div class="btn btn-alizarin btn-circle">
+						<i class="fa fa fa-user"></i>
 					</div>
-					<p><strong>Sistemas Web</strong></p>
-					<p>Sites com gerenciador de conteúdo</p>
+					<p class="title">Sistemas Web</p>
+					<p class="subtitle">Sites com gerenciador de conteúdo</p>
 				</a>
 			</div>
 			<div class="col-sm-3 col-md-2 col-xs-6 text-center service">
 				<a href="#">
-					<div class="btn btn-emerald btn-circle">
+					<div class="btn btn-alizarin btn-circle">
 						<i class="fa fa fa-shopping-cart"></i>
 					</div>
-					<p><strong>E-commerces</strong></p>
-					<p>Sites com gerenciador de conteúdo</p>
+					<p class="title">E-commerces</p>
+					<p class="subtitle">Sites com gerenciador de conteúdo</p>
 				</a>
 			</div>
 			<div class="col-sm-2 hidden-xs hidden-sm"></div>

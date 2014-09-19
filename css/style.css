@@ -17,7 +17,7 @@ time, mark, audio, video {
  font-size: 100%;
  font: inherit;
  vertical-align: baseline;
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Raleway', sans-serif;
  font-weight:300;
 }
 
@@ -215,19 +215,34 @@ fieldset[disabled] .btn-amethyst.active {
 
 
 
+header .navbar-brand {
+	margin-top: 5px;
+}
 
+header .navbar-brand .brand-title {
+	color:#e74c3c;
+	text-transform:uppercase;
+	font-weight:300;
+	display:block;
+	font-size:28px;
+}
 
+header .navbar-brand .brand-subtitle {
+	margin-top:5px;
+	font-size:14px;
+	display:block;
+}
 
 header, .navbar, .navbar-header {
 	height: 80px;
 }
 
-ul.navbar-nav > li {
-	text-transform:uppercase;
+ul.navbar-nav > li > a {
+	font-weight:400;
 }
 
 ul.navbar-nav > li:hover {
-	background-color: #34495e;
+	background-color: #e74c3c;
 }
 
 ul.navbar-nav > li > a:hover {
@@ -255,23 +270,30 @@ ul.navbar-nav > li > a:hover {
 	color: #999;
 }
 
-#services .service a p {
+#services .service a p.subtitle {
 	display:block;
 	margin-top:5px;
-	font-size:12px;
+	font-size:14px;
 }
 
-#services .service a p strong {
-	font-weight:600;
-	font-size:14px;
+#services .service a p.title {
+	font-size:16px;
 	margin-top:15px;
 	display:block;
 }
 
+#services .service a p.title {
+	font-size:16px;
+	margin-top:15px;
+	display:block;
+	font-weight:600;
+}
+	
+
 .btn-circle {
-	height:100px;
-	width:100px;
-	padding:30px 0;
+	height:80px;
+	width:80px;
+	padding:25px;
 	border-radius: 50%;
 }
 
@@ -282,32 +304,83 @@ ul.navbar-nav > li > a:hover {
 }
 
 .fa {
-	font-size:36px
+	font-size:30px
 }
 
 #about {
-	margin-top:30px;
+	padding:30px;
+	min-height:600px;
 }
 
-.text-effect {
+#about .content {
+	clear:both;
+	line-height:25px;
+	display:block;
+}
+
+#about .content p {
+	margin:20px 0;
+}
+
+#about .content h1 {
+	font-size:26px;
+	text-transform:uppercase;
+	display:block;
+}
+
+#about .content h1 strong {
+	font-weight:500;
+}
+
+#about .content hr {
+	height:6px;
+	width:40px;
+	background-color:#e74c3c;
+	float:left;
+	margin-top:5px;
+	display:block;
+	margin-right:100%;
+}
+
+#about .text-effect {
 	padding-left:50px;
 }
 
-.text-effect .symbol {
-	float:right;
-	font-size:500px;
-	font-weight:300;
-	width:25%;
-	line-height:300px;
+#about .text-effect .symbol {
+	float:left;
+	font-size:320px;
+	font-weight:100;
+	width:20%;
 	position:relative;
-	left:-40px;
+	text-align:left;
+	color:#c0392b;
 }
 
-.text-effect .content {
+#about .text-effect .fields {
 	float:left;
-	font-size:80px;
-	font-weight:800;
-	width:75%;
+	font-size:40px;
+	width:80%;
+	margin-top:40px;
+}
+
+#about .text-effect .fields .word1 {
+	color:#e74c3c;
+	font-weight:500;
+	display:block;
+}
+
+#about .text-effect .fields .word2 {
+	color:#c0392b;
+	font-weight:500;
+	display:block;
+}
+
+footer a {
+	color:#e74c3c;
+}
+
+footer a:hover {
+	color:#c0392b;
 }
 
 @media (min-width: 768px) {
