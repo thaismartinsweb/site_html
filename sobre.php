@@ -3,6 +3,7 @@
 <section id="about">
 	<div class="container-fluid">
 		<div class="row">
+			
 			<div class="col-sm-8 col-xs-12 content">
 				<h1>Sobre <strong>Mim</strong></h1><hr />
 				<p>Sou Analista e Desenvolvedora de Software, faço parte do time de TI do Bcash, uma empresa responsável
@@ -13,6 +14,7 @@
 				portais, blogs, CRM, ERP e sistemas web de diferentes segmentos.</p>
 				<p>No dia a dia utilizo metodologias ágeis, visando ciclos de entrega de valor com qualidade e prazos bem definidos.</p>
 			</div>
+			
 			<div class="col-sm-4 col-xs-12">
 				<div class="text-effect">
 					<div class="symbol">{</div>
@@ -28,6 +30,32 @@
 			</div>
 			
 		</div>
+		
+		<div class="row">
+			<div class="col-xs-12 content">
+				<h1>Minhas <strong>Skills</strong></h1><hr />
+				<button class="btn btn-warning btn-sm" type="button">HTML 5</button>
+				<button class="btn btn-warning btn-sm" type="button">CSS 3</button>
+				<button class="btn btn-warning btn-sm" type="button">Bootstrap</button>
+				<button class="btn btn-warning btn-sm" type="button">PHP</button>
+				<button class="btn btn-warning btn-sm" type="button">JAVA</button>
+				<button class="btn btn-warning btn-sm" type="button">MySql</button>
+				<button class="btn btn-warning btn-sm" type="button">Yii</button>
+				<button class="btn btn-warning btn-sm" type="button">Codeigniter</button>
+				<button class="btn btn-warning btn-sm" type="button">Doctrine</button>
+				<button class="btn btn-warning btn-sm" type="button">PHPUnit</button>
+				<button class="btn btn-warning btn-sm" type="button">Selenium IDE</button>
+				<button class="btn btn-warning btn-sm" type="button">Eclipse IDE</button>
+				<button class="btn btn-warning btn-sm" type="button">Apache</button>
+				<button class="btn btn-warning btn-sm" type="button">Hibernate</button>
+				<button class="btn btn-warning btn-sm" type="button">Spring</button>
+				<button class="btn btn-warning btn-sm" type="button">Maven</button>
+				<button class="btn btn-warning btn-sm" type="button">Jboss</button>
+				<button class="btn btn-warning btn-sm" type="button">Tomcat</button>
+				<button class="btn btn-warning btn-sm" type="button">Rest</button>
+			</div>
+		</div>
+				
 	</div>
 </section>
 	

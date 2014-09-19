@@ -39,6 +39,14 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2 hidden-xs hidden-sm"></div>
+			<div class="col-sm-8 content">
+				<h1>Serviços</h1><hr />
+			</div>
+			<div class="col-sm-2 hidden-xs hidden-sm"></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-2 hidden-xs hidden-sm"></div>
 			<div class="col-sm-3 col-md-2 col-xs-6 text-center service">
 				<a href="#">
 					<div class="btn btn-alizarin btn-circle">
