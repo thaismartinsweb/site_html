@@ -4,7 +4,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			
-			<div class="col-sm-8 col-xs-12 content">
+			<div class="col-md-offset-2 col-sm-5 col-xs-12 content">
 				<h1>Sobre <strong>Mim</strong></h1><hr />
 				<p>Sou Analista e Desenvolvedora de Software, faço parte do time de TI do Bcash, uma empresa responsável
 				por intermediações financeiras do Buscapé Company.</p>
@@ -15,7 +15,7 @@
 				<p>No dia a dia utilizo metodologias ágeis, visando ciclos de entrega de valor com qualidade e prazos bem definidos.</p>
 			</div>
 			
-			<div class="col-sm-4 col-xs-12">
+			<div class="col-sm-3 col-xs-12">
 				<div class="text-effect">
 					<div class="symbol">{</div>
 					<div class="fields">
@@ -32,7 +32,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-xs-12 content">
+			<div class="col-md-offset-2 col-sm-8 col-xs-12 content">
 				<h1>Minhas <strong>Skills</strong></h1><hr />
 				<button class="btn btn-warning btn-sm" type="button">HTML 5</button>
 				<button class="btn btn-warning btn-sm" type="button">CSS 3</button>

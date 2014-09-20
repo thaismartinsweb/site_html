@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Beozinho</title>
+	<title>Thais Martins | Desenvolvedora Web Freelancer</title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
 	
@@ -40,13 +40,13 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-right" id="menu">
 				<ul class="nav navbar-nav">
-					<li><a href="index.php">Página Inicial</a></li>
-					<li><a href="sobre.php">Sobre Mim</a></li>
-					<li><a href="servicos.php">Serviços</a></li>
-					<li><a href="portfolio.php">Portfolio</a></li>
-					<li><a href="contato.php">Contato</a></li>
+					<li><span class="nav-hover"></span><a href="index.php">Página Inicial</a></li>
+					<li><span class="nav-hover"></span><a href="sobre.php">Sobre Mim</a></li>
+					<li><span class="nav-hover"></span><a href="servicos.php">Serviços</a></li>
+					<li><span class="nav-hover"></span><a href="portfolio.php">Portfolio</a></li>
+					<li><span class="nav-hover"></span><a href="contato.php">Contato</a></li>
 				</ul>
 			</div>
 		</div>
-	</nav>
+	</nav>	
 </header>

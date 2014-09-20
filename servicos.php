@@ -3,13 +3,13 @@
 <section id="service">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 content">
-				<h1>Meus <strong>Serviços</strong></h1><hr />
+			<div class="col-md-offset-2 col-sm-8 col-xs-12 content">
+				<h1>O que <strong>faço</strong></h1><hr />
 			</div>
 		</div>
 		
 		<div class="row">
-			<div class="col-xs-12 content">
+			<div class="col-md-offset-2 col-sm-8 col-xs-12 content">
 				
 				<div class="col-sm-2 col-xs-12">
 					<p class="btn btn-alizarin" style="width:100%;"><i class="fa fa-edit"></i></p>

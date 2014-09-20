@@ -38,11 +38,9 @@
 <section id="services">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-2 hidden-xs hidden-sm"></div>
-			<div class="col-sm-8 content">
-				<h1>Serviços</h1><hr />
+			<div class="col-sm-8 col-md-offset-2 content">
+				<h1>O que <strong>faço</strong></h1><hr />
 			</div>
-			<div class="col-sm-2 hidden-xs hidden-sm"></div>
 		</div>
 		
 		<div class="row">
@@ -83,7 +81,6 @@
 					<p class="subtitle">Sites com gerenciador de conteúdo</p>
 				</a>
 			</div>
-			<div class="col-sm-2 hidden-xs hidden-sm"></div>
 		</div>
 	</div>
 </section>
