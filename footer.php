@@ -36,10 +36,12 @@
 		</div>
 		<div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-xs-12"><hr /></div>
 	</div>
-	<div class="col-xs-12 row text-center">
-		<address>Desenvolvido por Thaís Martins | <a href="#">tmartins.com</a></address>
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			<address>Desenvolvido por Thaís Martins | <a href="#">tmartins.com</a></address>
+		</div>
 	</div>
-	
+
 </footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

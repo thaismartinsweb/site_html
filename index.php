@@ -29,8 +29,8 @@
 						durationout:750;skewxout:60;">with hardware-acceleration</p>
 						
 						
-						<a href="#portfolio" class="ls-l" style="top:320px;left:350px;font-weight:500;height:20px;padding-right:10px;padding-left:10px;
-						font-size:16px;color:#ffffff;background:#c0392b;border-radius:10px;white-space: nowrap;"
+						<a href="#portfolio" class="ls-l" style="top:320px;left:350px;font-weight:600;padding:3px 10px;
+						font-size:14px;color:#ffffff;background:#c0392b;border-radius:10px;white-space: nowrap;"
 						data-ls="parallaxlevel:2;durationin:1500;delayin:1000;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;
 						durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">+ Ver Mais</a>
 						
