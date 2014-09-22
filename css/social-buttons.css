@@ -1,0 +1,58 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+/*
+ * Social Buttons for Bootstrap
+ *
+ * Copyright 2013 Panayiotis Lipiridis
+ * Licensed under the MIT License
+ *
+ * https://github.com/lipis/bootstrap-social
+ */
+
+.fa-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.fa-social :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.fa-social.fa-lg{padding-left:61px}.fa-social.fa-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.fa-social.fa-sm{padding-left:38px}.fa-social.fa-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.fa-social.fa-xs{padding-left:30px}.fa-social.fa-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.fa-social-icon{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:34px;width:34px;padding-left:0;padding-right:0}.fa-social-icon :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.fa-social-icon.fa-lg{padding-left:61px}.fa-social-icon.fa-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.fa-social-icon.fa-sm{padding-left:38px}.fa-social-icon.fa-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.fa-social-icon.fa-xs{padding-left:30px}.fa-social-icon.fa-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.fa-social-icon :first-child{border:none;text-align:center;width:100% !important}
+.fa-social-icon.fa-lg{height:45px;width:45px;padding-left:0;padding-right:0}
+.fa-social-icon.fa-sm{height:30px;width:30px;padding-left:0;padding-right:0}
+.fa-social-icon.fa-xs{height:22px;width:22px;padding-left:0;padding-right:0}
+.fa-bitbucket{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-bitbucket:hover,.fa-bitbucket:focus,.fa-bitbucket:active,.fa-bitbucket.active,.open .dropdown-toggle.fa-bitbucket{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-bitbucket:active,.fa-bitbucket.active,.open .dropdown-toggle.fa-bitbucket{background-image:none}
+.fa-bitbucket.disabled,.fa-bitbucket[disabled],fieldset[disabled] .fa-bitbucket,.fa-bitbucket.disabled:hover,.fa-bitbucket[disabled]:hover,fieldset[disabled] .fa-bitbucket:hover,.fa-bitbucket.disabled:focus,.fa-bitbucket[disabled]:focus,fieldset[disabled] .fa-bitbucket:focus,.fa-bitbucket.disabled:active,.fa-bitbucket[disabled]:active,fieldset[disabled] .fa-bitbucket:active,.fa-bitbucket.disabled.active,.fa-bitbucket[disabled].active,fieldset[disabled] .fa-bitbucket.active{border-color:rgba(0,0,0,0.2)}
+.fa-dropbox{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-dropbox:hover,.fa-dropbox:focus,.fa-dropbox:active,.fa-dropbox.active,.open .dropdown-toggle.fa-dropbox{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-dropbox:active,.fa-dropbox.active,.open .dropdown-toggle.fa-dropbox{background-image:none}
+.fa-dropbox.disabled,.fa-dropbox[disabled],fieldset[disabled] .fa-dropbox,.fa-dropbox.disabled:hover,.fa-dropbox[disabled]:hover,fieldset[disabled] .fa-dropbox:hover,.fa-dropbox.disabled:focus,.fa-dropbox[disabled]:focus,fieldset[disabled] .fa-dropbox:focus,.fa-dropbox.disabled:active,.fa-dropbox[disabled]:active,fieldset[disabled] .fa-dropbox:active,.fa-dropbox.disabled.active,.fa-dropbox[disabled].active,fieldset[disabled] .fa-dropbox.active{border-color:rgba(0,0,0,0.2)}
+.fa-facebook{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-facebook:hover,.fa-facebook:focus,.fa-facebook:active,.fa-facebook.active,.open .dropdown-toggle.fa-facebook{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-facebook:active,.fa-facebook.active,.open .dropdown-toggle.fa-facebook{background-image:none}
+.fa-facebook.disabled,.fa-facebook[disabled],fieldset[disabled] .fa-facebook,.fa-facebook.disabled:hover,.fa-facebook[disabled]:hover,fieldset[disabled] .fa-facebook:hover,.fa-facebook.disabled:focus,.fa-facebook[disabled]:focus,fieldset[disabled] .fa-facebook:focus,.fa-facebook.disabled:active,.fa-facebook[disabled]:active,fieldset[disabled] .fa-facebook:active,.fa-facebook.disabled.active,.fa-facebook[disabled].active,fieldset[disabled] .fa-facebook.active{border-color:rgba(0,0,0,0.2)}
+.fa-flickr{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-flickr:hover,.fa-flickr:focus,.fa-flickr:active,.fa-flickr.active,.open .dropdown-toggle.fa-flickr{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-flickr:active,.fa-flickr.active,.open .dropdown-toggle.fa-flickr{background-image:none}
+.fa-flickr.disabled,.fa-flickr[disabled],fieldset[disabled] .fa-flickr,.fa-flickr.disabled:hover,.fa-flickr[disabled]:hover,fieldset[disabled] .fa-flickr:hover,.fa-flickr.disabled:focus,.fa-flickr[disabled]:focus,fieldset[disabled] .fa-flickr:focus,.fa-flickr.disabled:active,.fa-flickr[disabled]:active,fieldset[disabled] .fa-flickr:active,.fa-flickr.disabled.active,.fa-flickr[disabled].active,fieldset[disabled] .fa-flickr.active{border-color:rgba(0,0,0,0.2)}
+.fa-github{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-github:hover,.fa-github:focus,.fa-github:active,.fa-github.active,.open .dropdown-toggle.fa-github{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-github:active,.fa-github.active,.open .dropdown-toggle.fa-github{background-image:none}
+.fa-github.disabled,.fa-github[disabled],fieldset[disabled] .fa-github,.fa-github.disabled:hover,.fa-github[disabled]:hover,fieldset[disabled] .fa-github:hover,.fa-github.disabled:focus,.fa-github[disabled]:focus,fieldset[disabled] .fa-github:focus,.fa-github.disabled:active,.fa-github[disabled]:active,fieldset[disabled] .fa-github:active,.fa-github.disabled.active,.fa-github[disabled].active,fieldset[disabled] .fa-github.active{border-color:rgba(0,0,0,0.2)}
+.fa-google-plus{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-google-plus:hover,.fa-google-plus:focus,.fa-google-plus:active,.fa-google-plus.active,.open .dropdown-toggle.fa-google-plus{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-google-plus:active,.fa-google-plus.active,.open .dropdown-toggle.fa-google-plus{background-image:none}
+.fa-google-plus.disabled,.fa-google-plus[disabled],fieldset[disabled] .fa-google-plus,.fa-google-plus.disabled:hover,.fa-google-plus[disabled]:hover,fieldset[disabled] .fa-google-plus:hover,.fa-google-plus.disabled:focus,.fa-google-plus[disabled]:focus,fieldset[disabled] .fa-google-plus:focus,.fa-google-plus.disabled:active,.fa-google-plus[disabled]:active,fieldset[disabled] .fa-google-plus:active,.fa-google-plus.disabled.active,.fa-google-plus[disabled].active,fieldset[disabled] .fa-google-plus.active{border-color:rgba(0,0,0,0.2)}
+.fa-instagram{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-instagram:hover,.fa-instagram:focus,.fa-instagram:active,.fa-instagram.active,.open .dropdown-toggle.fa-instagram{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-instagram:active,.fa-instagram.active,.open .dropdown-toggle.fa-instagram{background-image:none}
+.fa-instagram.disabled,.fa-instagram[disabled],fieldset[disabled] .fa-instagram,.fa-instagram.disabled:hover,.fa-instagram[disabled]:hover,fieldset[disabled] .fa-instagram:hover,.fa-instagram.disabled:focus,.fa-instagram[disabled]:focus,fieldset[disabled] .fa-instagram:focus,.fa-instagram.disabled:active,.fa-instagram[disabled]:active,fieldset[disabled] .fa-instagram:active,.fa-instagram.disabled.active,.fa-instagram[disabled].active,fieldset[disabled] .fa-instagram.active{border-color:rgba(0,0,0,0.2)}
+.fa-linkedin{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-linkedin:hover,.fa-linkedin:focus,.fa-linkedin:active,.fa-linkedin.active,.open .dropdown-toggle.fa-linkedin{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-linkedin:active,.fa-linkedin.active,.open .dropdown-toggle.fa-linkedin{background-image:none}
+.fa-linkedin.disabled,.fa-linkedin[disabled],fieldset[disabled] .fa-linkedin,.fa-linkedin.disabled:hover,.fa-linkedin[disabled]:hover,fieldset[disabled] .fa-linkedin:hover,.fa-linkedin.disabled:focus,.fa-linkedin[disabled]:focus,fieldset[disabled] .fa-linkedin:focus,.fa-linkedin.disabled:active,.fa-linkedin[disabled]:active,fieldset[disabled] .fa-linkedin:active,.fa-linkedin.disabled.active,.fa-linkedin[disabled].active,fieldset[disabled] .fa-linkedin.active{border-color:rgba(0,0,0,0.2)}
+.fa-pinterest{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-pinterest:hover,.fa-pinterest:focus,.fa-pinterest:active,.fa-pinterest.active,.open .dropdown-toggle.fa-pinterest{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-pinterest:active,.fa-pinterest.active,.open .dropdown-toggle.fa-pinterest{background-image:none}
+.fa-pinterest.disabled,.fa-pinterest[disabled],fieldset[disabled] .fa-pinterest,.fa-pinterest.disabled:hover,.fa-pinterest[disabled]:hover,fieldset[disabled] .fa-pinterest:hover,.fa-pinterest.disabled:focus,.fa-pinterest[disabled]:focus,fieldset[disabled] .fa-pinterest:focus,.fa-pinterest.disabled:active,.fa-pinterest[disabled]:active,fieldset[disabled] .fa-pinterest:active,.fa-pinterest.disabled.active,.fa-pinterest[disabled].active,fieldset[disabled] .fa-pinterest.active{border-color:rgba(0,0,0,0.2)}
+.fa-tumblr{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-tumblr:hover,.fa-tumblr:focus,.fa-tumblr:active,.fa-tumblr.active,.open .dropdown-toggle.fa-tumblr{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-tumblr:active,.fa-tumblr.active,.open .dropdown-toggle.fa-tumblr{background-image:none}
+.fa-tumblr.disabled,.fa-tumblr[disabled],fieldset[disabled] .fa-tumblr,.fa-tumblr.disabled:hover,.fa-tumblr[disabled]:hover,fieldset[disabled] .fa-tumblr:hover,.fa-tumblr.disabled:focus,.fa-tumblr[disabled]:focus,fieldset[disabled] .fa-tumblr:focus,.fa-tumblr.disabled:active,.fa-tumblr[disabled]:active,fieldset[disabled] .fa-tumblr:active,.fa-tumblr.disabled.active,.fa-tumblr[disabled].active,fieldset[disabled] .fa-tumblr.active{border-color:rgba(0,0,0,0.2)}
+.fa-twitter{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-twitter:hover,.fa-twitter:focus,.fa-twitter:active,.fa-twitter.active,.open .dropdown-toggle.fa-twitter{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-twitter:active,.fa-twitter.active,.open .dropdown-toggle.fa-twitter{background-image:none}
+.fa-twitter.disabled,.fa-twitter[disabled],fieldset[disabled] .fa-twitter,.fa-twitter.disabled:hover,.fa-twitter[disabled]:hover,fieldset[disabled] .fa-twitter:hover,.fa-twitter.disabled:focus,.fa-twitter[disabled]:focus,fieldset[disabled] .fa-twitter:focus,.fa-twitter.disabled:active,.fa-twitter[disabled]:active,fieldset[disabled] .fa-twitter:active,.fa-twitter.disabled.active,.fa-twitter[disabled].active,fieldset[disabled] .fa-twitter.active{border-color:rgba(0,0,0,0.2)}
+.fa-vk{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-vk:hover,.fa-vk:focus,.fa-vk:active,.fa-vk.active,.open .dropdown-toggle.fa-vk{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-vk:active,.fa-vk.active,.open .dropdown-toggle.fa-vk{background-image:none}
+.fa-vk.disabled,.fa-vk[disabled],fieldset[disabled] .fa-vk,.fa-vk.disabled:hover,.fa-vk[disabled]:hover,fieldset[disabled] .fa-vk:hover,.fa-vk.disabled:focus,.fa-vk[disabled]:focus,fieldset[disabled] .fa-vk:focus,.fa-vk.disabled:active,.fa-vk[disabled]:active,fieldset[disabled] .fa-vk:active,.fa-vk.disabled.active,.fa-vk[disabled].active,fieldset[disabled] .fa-vk.active{border-color:rgba(0,0,0,0.2)}

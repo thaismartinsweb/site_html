@@ -1,3 +1,4 @@
+/***************** CSS RESET ******************/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,10 +56,46 @@ a, a:link, a:hover, a:visited, a:active {
 
 
 
+/************* TITULO DAS PÁGINAS **********/
+.page-title h1 {
+	margin-top:20px;
+	padding-bottom:5px;
+	font-size:26px;
+	text-transform:uppercase;
+	display:block;
+}
+
+.page-title h1 strong {
+	font-weight:500;
+}
+
+.page-title hr {
+	height:6px;
+	width:40px;
+	background-color:#e74c3c;
+	float:left;
+	margin-top:5px;
+	display:block;
+	margin-right:100%;
+}
 
 
+/***************** BOTÕES ******************/
+.btn-circle {
+	height:80px;
+	width:80px;
+	padding:25px;
+}
 
+.btn-circle > span {
+	display:block;
+	text-transform:uppercase;
+	font-weight:400;
+}
 
+.fa {
+	font-size:30px
+}
 
 .btn-alizarin {
   color: #fff;
@@ -215,34 +252,11 @@ fieldset[disabled] .btn-amethyst.active {
 
 
 
-header .navbar-brand {
-	margin-top: 5px;
-}
 
-header .navbar-brand .brand-title {
-	color:#e74c3c;
-	text-transform:uppercase;
-	font-weight:300;
-	display:block;
-	font-size:28px;
-}
-
-header .navbar-brand .brand-subtitle {
-	margin-top:5px;
-	font-size:14px;
-	display:block;
-}
-
-header, .navbar, .navbar-header {
-	height: 80px;
-}
+/***************** NAVBAR ******************/
 
 ul.navbar-nav > li > a {
 	font-weight:400;
-}
-
-ul.navbar-nav > li {
-	background-color:transparent!important;
 }
 
 ul.navbar-nav > li.normal {
@@ -257,24 +271,81 @@ ul.navbar-nav > li > .nav-hover {
 	background-color: #e74c3c;
 }
 
-#services {
-	margin:20px 0;
-	display: block;
-	line-height:16px;
+ul#onepage > li.current a{
+	color:#fff!important;
+	background-color: #e74c3c;
 }
 
-#services .content h1 {
-	margin-top:20px;
+
+
+
+/***************** SOBRE MIM ******************/
+#about {
+	padding-top:90px;
+}
+
+#about .row-comment hr {
+	margin-top:0;
+	margin-bottom:20px;
+	padding: 0;
+}
+
+#about .block-comment {
+	display:block;
+	line-height:30px;
+}
+
+#about .block-comment .quotes-left {
+	font-family:'Arial', sans-serif;
+	font-size:100px;
+	color:#c0392b;
+	padding-top:10px;
+	display:block;
+	text-align:right;
+	line-height:100px;
+}
+
+#about .block-comment .quotes-right {
+	font-family:'Arial', sans-serif;
+	font-size:100px;
+	color:#c0392b;
+	padding-top:10px;
+	display:block;
+	text-align:left;
+	line-height:100px;
+}
+
+#about .comment {
+	font-size:22px;
+}
+
+#about .comment strong {
+	font-weight:500;
+	color:#e74c3c;
+	font-size:30px;
+}
+
+#about .content {
+	clear:both;
+	line-height:25px;
+	display:block;
+}
+
+#about .content p {
+	margin:20px 0;
+}
+
+#about .content h1 {
 	font-size:26px;
 	text-transform:uppercase;
 	display:block;
 }
 
-#services .content h1 strong {
+#about .content h1 strong {
 	font-weight:500;
 }
 
-#services .content hr {
+#about .content hr {
 	height:6px;
 	width:40px;
 	background-color:#e74c3c;
@@ -282,6 +353,47 @@ ul.navbar-nav > li > .nav-hover {
 	margin-top:5px;
 	display:block;
 	margin-right:100%;
+}
+
+#about .skills {
+	margin-top:30px;
+}
+
+#about .text-effect {
+	padding-left:50px;
+}
+
+#about .text-effect .symbol {
+	float:left;
+	font-size:320px;
+	font-weight:100;
+	width:20%;
+	position:relative;
+	text-align:left;
+	color:#e74c3c;
+}
+
+#about .text-effect .fields {
+	float:left;
+	font-size:40px;
+	width:80%;
+	margin-top:40px;
+}
+
+#about .text-effect .fields .word {
+	color:#e74c3c;
+	font-weight:500;
+	display:block;
+}
+
+
+
+
+/***************** SERVIÇOS ******************/
+#services {
+	padding-top:90px;
+	display: block;
+	line-height:16px;
 }
 
 #services .service {
@@ -315,134 +427,67 @@ ul.navbar-nav > li > .nav-hover {
 	display:block;
 	font-weight:600;
 }
-	
 
-.btn-circle {
-	height:80px;
-	width:80px;
-	padding:25px;
+
+
+
+/***************** PORTFOLIO ******************/
+#portfolio {
+	padding-top:90px;
+	display: block;
+	line-height:16px;
 }
 
-.btn-circle > span {
-	display:block;
+#portfolio .item .title {
+	width:100%;
+	font-weight: 600;
+}
+
+#portfolio .item .division hr {
+	width: 60%;
+	margin: 5px auto 2px auto;
+}
+
+#portfolio .item .works {
+	margin: 5px 0;
+	text-align:center;
+	margin:0 auto;
+}
+
+#portfolio .item .works span {
+	padding: 0 5px;
+	font-size: 10px;
+	margin:0 auto;
+}
+
+#portfolio .item .works span a {
+	color: #e74c3c;
 	text-transform:uppercase;
-	font-weight:400;
 }
 
-.fa {
-	font-size:30px
+#portfolio .item .works span a:hover {
+	color: #c0392b;
 }
 
-#about {
-	padding:30px;
-	min-height:600px;
-}
-
-#about .content {
+#portfolio .item .description {
+	font-size:14px;
 	clear:both;
-	line-height:25px;
-	display:block;
+	margin:15px 0;
 }
-
-#about .content p {
-	margin:20px 0;
-}
-
-#about .content h1 {
-	font-size:26px;
-	text-transform:uppercase;
-	display:block;
-}
-
-#about .content h1 strong {
-	font-weight:500;
-}
-
-#about .content hr {
-	height:6px;
-	width:40px;
-	background-color:#e74c3c;
-	float:left;
-	margin-top:5px;
-	display:block;
-	margin-right:100%;
-}
-
-#about .text-effect {
-	padding-left:50px;
-}
-
-#about .text-effect .symbol {
-	float:left;
-	font-size:320px;
-	font-weight:100;
-	width:20%;
-	position:relative;
-	text-align:left;
-	color:#c0392b;
-}
-
-#about .text-effect .fields {
-	float:left;
-	font-size:40px;
-	width:80%;
-	margin-top:40px;
-}
-
-#about .text-effect .fields .word1 {
-	color:#e74c3c;
-	font-weight:500;
-	display:block;
-}
-
-#about .text-effect .fields .word2 {
-	color:#c0392b;
-	font-weight:500;
-	display:block;
-}
-
-#service {
-	padding:30px;
-	min-height:600px;
-}
-
-
-#service .content p {
+#portfolio .item .btn-group {
 	margin:10px 0;
-	line-height:18px;
 }
 
-#service .content h1 {
-	margin-top:20px;
-	font-size:26px;
-	text-transform:uppercase;
-	display:block;
+#portfolio .item .btn-group .fa {
+	margin-right: 5px;
+	top:0;
+	font-size: 9px;
 }
 
-#service .content h2 {
-	margin:20px 0;
-	padding-bottom:5px;
-	font-size:16px;
-	text-transform:uppercase;
-	display:block;
-	font-weight:400;
-	border-bottom:1px solid #999;
-}
 
-#service .content h1 strong {
-	font-weight:500;
-}
 
-#service .content hr {
-	height:6px;
-	width:40px;
-	background-color:#e74c3c;
-	float:left;
-	margin-top:5px;
-	display:block;
-	margin-right:100%;
-}
 
+/***************** RODAPÉ ******************/
 footer {
 	width:100%;
 	margin-top:20px;
@@ -474,56 +519,151 @@ footer .contact {
 	padding:2px 0;
 }
 
-footer .contact p {
-	font-size: 14px;
+footer .contact p .fa {
+	color:#A0A0A0;
 }
 
-footer .contact p .fa{
+
+
+
+
+
+/***************** MÍDIAS ******************/
+@media (min-width: 768px) {
+	
+ header .navbar-brand {
+	margin-top: 5px;
+ }
+
+ header .navbar-brand .brand-title {
+	color:#e74c3c;
+	text-transform:uppercase;
+	font-weight:300;
+	display:block;
+	font-size:28px;
+ }
+
+ header .navbar-brand .brand-subtitle {
+	margin-top:5px;
+	font-size:14px;
+	display:block;
+ }
+
+ header, .navbar, .navbar-header {
+	height: 80px;
+ }
+ 
+ footer {
+	bottom:0;
+ }
+
+ footer .contact p {
+	margin: 7px 0;
+	font-size: 14px;
+ }
+ 
+ footer .contact p .fa {
 	font-size: 11px;
 	margin: 0 10px;
-}
+ }
 
-footer .contact .social {
+ footer .contact .social {
 	background-color: #e74c3c;
 	height: 25px;
 	width: 25px;
 	float:right;
 	border-radius:10%;
-}
-
-footer .contact .social:hover {
-	background-color: #c0392b;
-}
-
-footer .contact .social a{
-	color:#fff;
-}
-
-footer .contact .social a .fa {
-	font-size:14px;
-	padding:5px;
-}
-
-@media (min-width: 768px) {
- footer {
-	bottom:0;
- }
-
- footer .contact .social {
 	margin: 2px 5px;
  }
- 
- footer .contact p {
-	margin:7px 0;
+
+ footer .contact .social:hover {
+	background-color: #c0392b;
+ }
+
+ footer .contact .social a{
+	color:#fff;
+ }
+
+ footer .contact .social a .fa {
+	font-size:16px;
+	padding:4px 6px;
  }
 
 }
 
 
+
+
+/***************** MOBILE ******************/
 @media (max-width: 767px) {
 
+ header .navbar-brand .brand-title {
+	color:#fff;
+	font-size:1em;
+	text-transform:uppercase;
+	font-weight:300;
+	display:block;
+ }
+
+ header .navbar-brand .brand-subtitle {
+ 	color:#fff;
+	font-size:0.7em;
+	display:block;
+ }
+ 
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #EE8277;
+}
+
+ header .navbar .nav > li > a {
+	float: none;
+	padding: 17px 15px 17px;
+	border-bottom:1px solid #EE8277;
+	color:#fff;
+ }
+
+ header .navbar-default,  ul.navbar-nav > li > a {
+	background-color: #e74c3c;
+ }
+ 
+ #about .block-comment {
+	margin-bottom:15px;
+}
+ 
+ footer .contact p {
+	margin:5px 0;
+	text-align:center;
+	font-size: 16px;
+ }
+ 
+ footer .contact p .fa {
+	font-size: 12px;
+	margin: 0 5px;
+ }
+
  footer .contact .social {
-	margin: 5px;
+	background-color: #e74c3c;
+	height: 25px;
+	width: 28%;
+	padding: 4px 0;
+	float:right;
+	border-radius:10%;
+	margin: 5% 1%;
+	text-align:center;
+ }
+
+ footer .contact .social:hover {
+	background-color: #c0392b;
+ }
+
+ footer .contact .social a {
+	color:#fff;
+	font-size: 12px;
+ }
+ 
+  footer .contact .social a span{
+	font-weight:500;
  }
 
 }
