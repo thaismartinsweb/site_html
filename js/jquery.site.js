@@ -24,13 +24,11 @@ $(function(){
 	  return isMobile.any()
 	}
 	
+	$('#menu').removeClass('in').css('height', '0');
+	
 	$('#onepage > li > a').click(function(){
 		$('.collapse.in').removeClass('in').css('height', '0');
 	});
-	
-	$('#menu').removeClass('in').css('height', '0');
-	
-	$('.collapse').collapse();
 	
 	$('#onepage').onePageNav({
 		begin: function() {
@@ -38,14 +36,13 @@ $(function(){
 	});
 	
 	jQuery("#slider").layerSlider({
-		responsive: false,
-		responsiveUnder: 780,
-		layersContainer: 780,
-		skin: 'noskin',
-		hoverPrevNext: false, 
-		pauseOnHover: false,
-		autoPlayVideos: false,
-		skinsPath: 'js/skins/'
+		responsive: true,
+		responsiveUnder: 768,
+		layersContainer: 768,
+		skin: 'fullwidth',
+		navPrevNext: true,
+		autoPlayVideos: true,
+		skinsPath: '/js/skins/'
 	});
 
 
