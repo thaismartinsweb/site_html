@@ -492,6 +492,34 @@ ul#onepage > li.current a{
 	font-size: 9px;
 }
 
+/***************** CONTATO ******************/
+#contact {
+	padding-top:90px;
+	display: block;
+}
+
+#contact h3 {
+	font-size:26px;
+	line-height:28px;
+	font-weight:400;
+}
+
+#contact p, #contact p i {
+	font-size:16px;
+	margin:10px;
+}
+
+#contact p, #contact p i, #contact p a {
+	font-weight:400;
+}
+
+#contact p a, #contact p i {
+	color:#e74c3c;
+}
+
+#contact p a:hover {
+	color:#c0392b;
+}
 
 
 
@@ -594,6 +622,17 @@ footer .contact p .fa {
 
  footer .contact .social a .fa {
 	font-size:16px;
+ }
+ 
+ footer .contact .social a .github {
+	padding:4px 5px;
+ }
+ 
+ footer .contact .social a .behance {
+	padding:4px;
+ }
+ 
+ footer .contact .social a .linkedin {
 	padding:4px 6px;
  }
 
@@ -603,6 +642,20 @@ footer .contact p .fa {
 
 
 /***************** MOBILE ******************/
+
+@media (min-width: 768px) and (max-width: 970px) {
+  footer .contact p {
+	margin:5px 0;
+	text-align:center;
+	font-size: 16px;
+  }
+ 
+  footer .contact #socials {
+  	width: 135px;
+ 	margin: 5px auto;
+ }
+}
+
 @media (max-width: 767px) {
 
  header .navbar-brand .brand-title {
@@ -649,7 +702,7 @@ footer .contact p .fa {
 	font-size: 12px;
 	margin: 0 5px;
  }
-
+ 
  footer .contact .social {
 	background-color: #e74c3c;
 	height: 25px;

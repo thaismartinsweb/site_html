@@ -348,5 +348,73 @@
 </section>
 
 
+<section id="contact">
+	<div class="container-fluid">
+	
+		<div class="row">
+			<div class="col-md-9 col-md-offset-1 col-xs-12">
+				<div class="page-title">
+					<h1>Fale <strong>Comigo</strong></h1><hr />
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-5 col-md-offset-1 col-xs-12">
+			<form class="form-horizontal" role="form">
+			
+			  <div class="form-group">
+			    <label for="nome" class="col-sm-2 control-label">Nome</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control input-lg" id="nome" placeholder="Nome">
+			    </div>
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="email" class="col-sm-2 control-label">Email</label>
+			    <div class="col-sm-10">
+					<input type="email" class="form-control input-lg" id="email" placeholder="email@email.com.br">
+				</div>
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="telefone" class="col-sm-2 control-label">Telefone</label>
+			    <div class="col-sm-10">
+			      <input type="tel" class="form-control input-lg" id="telefone" name="telefone" placeholder="(XX)XXXX-XXXX">
+			    </div>
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="site" class="col-sm-2 control-label">Site</label>
+			    <div class="col-sm-10">
+			      <input type="tel" class="form-control input-lg" id="site" name="site" placeholder="http://www.site.com.br">
+			    </div>
+			  </div>
+			  
+			  <div class="form-group">
+			    <label for="conteudo" class="col-sm-2 control-label">Descrição</label>
+			    <div class="col-sm-10">
+					<textarea class="form-control input-lg" rows="5" id="conteudo" name="conteudo" placeholder="Descrição"></textarea>
+			    </div>
+			  </div>
+	
+			  <div class="form-group">
+			    <div class="col-sm-offset-2 col-sm-10">
+			      <button type="submit" class="btn btn-danger">Enviar</button>
+			    </div>
+			  </div>
+			  
+			</form>
+		</div>
+		
+		<div class="col-md-5 hidden-sm hidden-xs">
+			<h3>Precisando de orçamento ou tem alguma dúvida?</h3>
+			<p><i class="fa fa-comment"></i>11 94129-3240</p>
+			<p><i class="fa fa-laptop"></i><a href="mailto:#">contato@tmartins.com.br</a></p>
+			<p><i class="fa fa-skype"></i>thamartinss</p>
+		</div>
+		
+	</div>
+</section>
+
 	
 <?php require_once 'footer.php';?>

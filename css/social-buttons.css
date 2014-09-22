@@ -1,4 +1,4 @@
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 /*
  * Social Buttons for Bootstrap
  *
@@ -56,3 +56,6 @@
 .fa-vk{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-vk:hover,.fa-vk:focus,.fa-vk:active,.fa-vk.active,.open .dropdown-toggle.fa-vk{color:#fff;border-color:rgba(0,0,0,0.2)}
 .fa-vk:active,.fa-vk.active,.open .dropdown-toggle.fa-vk{background-image:none}
 .fa-vk.disabled,.fa-vk[disabled],fieldset[disabled] .fa-vk,.fa-vk.disabled:hover,.fa-vk[disabled]:hover,fieldset[disabled] .fa-vk:hover,.fa-vk.disabled:focus,.fa-vk[disabled]:focus,fieldset[disabled] .fa-vk:focus,.fa-vk.disabled:active,.fa-vk[disabled]:active,fieldset[disabled] .fa-vk:active,.fa-vk.disabled.active,.fa-vk[disabled].active,fieldset[disabled] .fa-vk.active{border-color:rgba(0,0,0,0.2)}
+.fa-behance{color:#fff;border-color:rgba(0,0,0,0.2)}.fa-behance:hover,.fa-behance:focus,.fa-behance:active,.fa-behance.active,.open .dropdown-toggle.fa-behance{color:#fff;border-color:rgba(0,0,0,0.2)}
+.fa-behance:active,.fa-behance.active,.open .dropdown-toggle.fa-behance{background-image:none}
+.fa-behance.disabled,.fa-behance[disabled],fieldset[disabled] .fa-behance,.fa-behance.disabled:hover,.fa-behance[disabled]:hover,fieldset[disabled] .fa-behance:hover,.fa-behance.disabled:focus,.fa-behance[disabled]:focus,fieldset[disabled] .fa-behance:focus,.fa-behance.disabled:active,.fa-behance[disabled]:active,fieldset[disabled] .fa-behance:active,.fa-behance.disabled.active,.fa-behance[disabled].active,fieldset[disabled] .fa-behance.active{border-color:rgba(0,0,0,0.2)}
