@@ -81,6 +81,10 @@ a, a:link, a:hover, a:visited, a:active {
 
 
 /***************** BOTÕES ******************/
+.none {
+	display:none;
+}
+
 .btn-circle {
 	height:80px;
 	width:80px;
@@ -524,6 +528,31 @@ ul#onepage > li.current a{
 
 #contact label {
 	margin-bottom:10px;
+}
+
+#contact #sendFail .alert {
+	background-color:#d43f3a;
+	padding:10px 15px;
+	display:none;
+	color:#fff;
+	text-align:center;
+}
+
+#contact #sendFail .alert a {
+	color:#fff;
+	font-weight:600;
+}
+
+#contact #sendFail .alert strong {
+	font-weight:600;
+}
+
+#contact #sendOk .alert {
+	background-color:#5cb85c;
+	padding:10px 15px;
+	display:none;
+	color:#fff;
+	text-align:center;
 }
 
 

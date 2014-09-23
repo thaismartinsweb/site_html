@@ -38,7 +38,7 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12 text-center">
-			<address>Desenvolvido por Thaís Martins | <a href="#">tmartins.com</a></address>
+			<address>Desenvolvido por Thaís Martins | <a href="#">tmartins.com.br</a></address>
 		</div>
 	</div>
 

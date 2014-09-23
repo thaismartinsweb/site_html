@@ -360,19 +360,32 @@
 		</div>
 
 		<div class="col-md-5 col-md-offset-1 col-xs-12">
-			<form class="form-horizontal" role="form">
+		
+			<div class="row" id="sendFail">
+				<p class="alert nome"><strong>Erro: </strong>Verifique o campo [NOME].</p>
+				<p class="alert email"><strong>Erro: </strong>Verifique o campo [EMAIL].</p>
+				<p class="alert telefone"><strong>Erro: </strong>Verifique o campo [TELEFONE].</p>
+				<p class="alert site"><strong>Erro: </strong>Verifique o campo [SITE].</p>
+				<p class="alert all">Erro ao enviar email, por favor, tente novamente<br />ou envie um email para <a href="mailto:contato@tmartins.com.br">contato@tmartins.com.br</a>.</p>
+			</div>
+			
+			<div class="row" id="sendOk">
+				<p class="alert nome">Email enviado com sucesso!</p>
+			</div>
+			
+			<form id="formContact" class="form-horizontal" role="form" method="post" action="">
 			
 			  <div class="form-group">
 			    <label for="nome" class="col-sm-2 control-label">Nome</label>
 			    <div class="col-sm-10">
-			      <input type="text" class="form-control input-lg" id="nome" placeholder="Nome">
+			      <input type="text" class="form-control input-lg" id="nome" name="nome" placeholder="Nome" />
 			    </div>
 			  </div>
 			  
 			  <div class="form-group">
 			    <label for="email" class="col-sm-2 control-label">Email</label>
 			    <div class="col-sm-10">
-					<input type="email" class="form-control input-lg" id="email" placeholder="email@email.com.br">
+					<input type="email" class="form-control input-lg" id="email" name="email" placeholder="email@email.com.br">
 				</div>
 			  </div>
 			  
@@ -393,13 +406,13 @@
 			  <div class="form-group">
 			    <label for="conteudo" class="col-sm-2 control-label">Descrição</label>
 			    <div class="col-sm-10">
-					<textarea class="form-control input-lg" rows="5" id="conteudo" name="conteudo" placeholder="Descrição"></textarea>
+					<textarea class="form-control input-lg" rows="5" id="mensagem" name="mensagem" placeholder="Descrição"></textarea>
 			    </div>
 			  </div>
 	
 			  <div class="form-group">
 			    <div class="col-sm-offset-2 col-sm-10">
-			      <button type="submit" class="btn btn-danger">Enviar</button>
+			      <button class="btn btn-danger" type="submit">Enviar</button>
 			    </div>
 			  </div>
 			  

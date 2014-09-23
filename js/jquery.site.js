@@ -1,5 +1,32 @@
 $(function(){
 	
+	$('#formContact').submit(function(){
+		
+		$('.telefone').hide();
+		$('.email').hide();
+		$('.nome .site').hide();
+		$('.site').hide();
+		$('.all').hide();
+		$('#sendOk .alert').hide();
+		
+		$.ajax({
+			url: "send.php",
+			type: "POST",
+			data: $(this).serialize(),
+		}).done(function(result) {
+
+			if(result == 1){
+				$('#sendOk .alert').show();
+			} else {
+				$('#sendFail').find('.' + result).show();
+			}
+		}).fail(function() {
+			$('#sendFail').find('.all').show();
+		});
+		
+		return false;
+	});
+	
 	function isMobile(){
 		 var isMobile = {
 			  Android: function() {
