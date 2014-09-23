@@ -399,7 +399,7 @@
 			  <div class="form-group">
 			    <label for="site" class="col-sm-2 control-label">Site</label>
 			    <div class="col-sm-10">
-			      <input type="tel" class="form-control input-lg" id="site" name="site" placeholder="http://www.site.com.br">
+			      <input type="url" class="form-control input-lg" id="site" name="site" placeholder="http://www.site.com.br">
 			    </div>
 			  </div>
 			  
