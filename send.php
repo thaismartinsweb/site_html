@@ -32,7 +32,7 @@ if(PATH_SEPARATOR == ";") $quebra_linha = "\r\n";
 else $quebra_linha = "\n";
 
 $headers = "MIME-Version: 1.1" .$quebra_linha;
-$headers .= "Content-type: text/html; charset=iso-8859-1" .$quebra_linha;
+$headers .= "Content-type: text/html; charset=utf-8" .$quebra_linha;
 $headers .= "From:" . $senderName . "<" . $sender . ">" .$quebra_linha;
 $headers .= "Reply-To: " . $email . $quebra_linha;
 
