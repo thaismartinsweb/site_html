@@ -183,7 +183,7 @@
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service">
 				<a href="#">
 					<span class="btn btn-alizarin btn-circle">
-						<i class="fa fa fa-phone"></i>
+						<i class="fa fa fa-tablet"></i>
 					</span>
 					<span class="title">Sites Responsivos</span>
 					<span class="subtitle">Tenha um único site compativel com qualquer dispositivo do mercado</span>
@@ -201,7 +201,7 @@
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service">
 				<a href="#">
 					<span class="btn btn-alizarin btn-circle">
-						<i class="fa fa fa-shopping-cart"></i>
+						<i class="fa fa fa-mobile"></i>
 					</span>
 					<span class="title">App Multi-Plataforma</span>
 					<span class="subtitle">Tenha em um único aplicativo mobile o seu projeto rodando em qualquer plataforma</span>
