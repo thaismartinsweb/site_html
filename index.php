@@ -165,7 +165,7 @@
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service col-md-offset-1">
 				<a href="#">
 					<span class="btn btn-alizarin btn-circle">
-						<i class="fa fa fa-edit"></i>
+						<i class="fa fa fa-paint-brush"></i>
 					</span>
 					<span class="title">PSD para HTML</span>
 					<span class="subtitle">Seu projeto com código de qualidade, com pixels e cross browser compatíveis</span>
