@@ -168,7 +168,7 @@
 						<i class="fa fa fa-edit"></i>
 					</span>
 					<span class="title">PSD para HTML</span>
-					<span class="subtitle">Tenha autonomia com um site com gerenciador de conteúdo</span>
+					<span class="subtitle">Seu projeto com código de qualidade, com pixels e cross browser compatíveis</span>
 				</a>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service">
@@ -177,7 +177,7 @@
 						<i class="fa fa fa-edit"></i>
 					</span>
 					<span class="title">Sites com CMS</span>
-					<span class="subtitle">Tenha autonomia com um site com gerenciador de conteúdo</span>
+					<span class="subtitle">Total autonomia para gerenciar qualquer o conteúdo do seu site</span>
 				</a>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service">
@@ -186,7 +186,7 @@
 						<i class="fa fa fa-phone"></i>
 					</span>
 					<span class="title">Sites Responsivos</span>
-					<span class="subtitle">Sites com gerenciador de conteúdo</span>
+					<span class="subtitle">Tenha um único site compativel com qualquer dispositivo do mercado</span>
 				</a>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service">
@@ -195,7 +195,7 @@
 						<i class="fa fa fa-user"></i>
 					</span>
 					<span class="title">Sistemas Web</span>
-					<span class="subtitle">Sites com gerenciador de conteúdo</span>
+					<span class="subtitle">Soluções web específicas para o seu segmento e modelo de negócio</span>
 				</a>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-12 text-center service">
@@ -203,8 +203,8 @@
 					<span class="btn btn-alizarin btn-circle">
 						<i class="fa fa fa-shopping-cart"></i>
 					</span>
-					<span class="title">E-commerces</span>
-					<span class="subtitle">Sites com gerenciador de conteúdo</span>
+					<span class="title">App Multi-Plataforma</span>
+					<span class="subtitle">Tenha em um único aplicativo mobile o seu projeto rodando em qualquer plataforma</span>
 				</a>
 			</div>
 		</div>
@@ -422,7 +422,7 @@
 		<div class="col-md-5 hidden-sm hidden-xs">
 			<h3>Precisando de orçamento ou tem alguma dúvida?</h3>
 			<p><i class="fa fa-comment"></i>11 94129-3240</p>
-			<p><i class="fa fa-laptop"></i><a href="mailto:#">contato@tmartins.com.br</a></p>
+			<p><i class="fa fa-laptop"></i><a href="mailto:contato@tmartins.com.br">contato@tmartins.com.br</a></p>
 			<p><i class="fa fa-skype"></i>thamartinss</p>
 		</div>
 		

@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Thais Martins | Desenvolvedora Web Freelancer</title>
 	
-	<link href='http://fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
 	
 	<link href="css/bootstrap.css" rel="stylesheet" />
 	<link href="css/social-buttons.css" rel="stylesheet" />
